@@ -296,7 +296,7 @@
 }
 
 
-/*  Dropdown menu*/
+ /* Dropdown menu
 
 ul.sub-menu {
   display: none;
@@ -375,7 +375,7 @@ ul.sub-menu {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
-}
+} */
 
 
 /*************************
@@ -555,7 +555,7 @@ ul.sub-menu {
   animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
 }
 
-#home-slider .slider-hill {
+/* #home-slider .slider-hill {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -608,7 +608,7 @@ ul.sub-menu {
 .animate-in .slider-birds2 {
   -webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
   animation: fadeInRight 500ms ease-in-out 1200ms both;
-}
+} */
 
 
 #home-slider h1{
