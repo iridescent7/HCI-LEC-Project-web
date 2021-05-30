@@ -1,2 +1,2 @@
 # Project HCI LEC
-Kerjaan di folder ./src
+Project di folder src
