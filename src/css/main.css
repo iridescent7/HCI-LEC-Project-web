@@ -2629,6 +2629,13 @@ span.stButton_gradient,
   color: #b38040
 }
 
+/*************************
+********Sign Up and Sign In page CSS******
+**************************/
+#register-form, #login-form{
+  max-width: 80%;
+}
+
 /*Shortcodes CSS*/
 .bs-example{
   margin: 0 0 20px;
