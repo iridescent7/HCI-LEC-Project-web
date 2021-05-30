@@ -2683,3 +2683,8 @@ span.stButton_gradient,
   border-radius: 100%;
   margin: 10px 0;
 }
+
+.img-featured {
+  width: 400px;
+  height: 250px;
+}
