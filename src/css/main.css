@@ -2589,6 +2589,13 @@ span.stButton_gradient,
   border:2px solid #00aeef;
 }
 
+#subscribe .text-area-control {
+  background-color: transparent;
+  height: 52px;
+  color: #fff;
+  border:2px solid #00aeef;
+}
+
 #newsletter {
   margin-top: 35px;
   position: relative;
@@ -2684,7 +2691,30 @@ span.stButton_gradient,
   margin: 10px 0;
 }
 
+/* Image input in index.html */
+
 .img-featured {
   width: 400px;
   height: 250px;
+}
+
+.text-area-control {
+  border: 1px solid #eaeaea;
+  font-weight: 300;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 150px;
+  width : 100%; 
+  box-sizing: border-box;
+  resize : none;
+}
+
+
+.text-area-control:hover, 
+.text-area-control:focus{
+  border-color: #4fcccd;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }

@@ -415,6 +415,10 @@
         font-size: 14px;
         height: 40px
     }
+    #newsletter .text-area-control {
+        font-size: 14px;
+        height: 40px
+    }
     #newsletter i {
         font-size: 25px;
     }
@@ -499,6 +503,10 @@
         text-align: center;
     }
     #newsletter .form-control {
+        font-size: 14px;
+        height: 40px
+    }
+    #newsletter .text-area-control {
         font-size: 14px;
         height: 40px
     }
