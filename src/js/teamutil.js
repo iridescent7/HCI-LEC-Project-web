@@ -59,6 +59,7 @@ $(document).ready(function () {
             <td class="teamName">` + nameGen() + `</td>
             <td>` + repGen() + `</td>
             <td>` + sentenceGen() + `</td>
+            <td><Button class="btn btn-common">Offer a Job</Button></td>
         </tr>`
         $("table tbody").append(entry);
     }
