@@ -2719,3 +2719,22 @@ span.stButton_gradient,
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.messages-box,
+.chat-box {
+  height: 650px;
+  overflow-y: scroll;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.chatbox-input {
+  font-size: 0.9rem;
+  color: #999;
+}

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>About Us | Triangle</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Chatroom | LinkedStack</title>
+    <link href="css/bootstrap.min.v5.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -38,25 +38,15 @@
                 </div>
             </div>
         </div>
-        <div class="navbar navbar-inverse" role="banner">
+        <div class="navbar navbar-expand-lg navbar-inverse" role="banner">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <h1><img src="assets/logo-name.png" alt="logo"></h1>
-                    </a>
+                <div class="navbar-brand" href="index.html">
+                  	<h1><img src="assets/logo-name.png" alt="logo"></h1>
                 </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="AboutUs.html">About Us</a></li>
-                        <li><a href="#">Job Offers</a></li>
-                    </ul>
+                <div class="navbar-nav collapse navbar-collapse navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="ViewJobOffers.html">Job Offers</a></li>
                 </div>
                 <div class="search">
                     <form role="form">
@@ -76,8 +66,8 @@
                 <div class="row">
                     <div class="action">
                         <div class="col-sm-12">
-                            <h1 class="title">View Teams</h1>
-                            <p>Checkout the teams.</p>
+                            <h1 class="title">Chat Room</h1>
+                            <p>Talk with with your team or other people.</p>
                         </div>
                     </div>
                 </div>
@@ -85,31 +75,141 @@
         </div>
     </section>
 
+    <div class="container py-5 px-4">
+      <div class="row rounded-lg overflow-hidden shadow">
+        <!-- Users box-->
+        <div class="col-5 px-0">
+          <div class="bg-white">
 
+            <div class="bg-gray px-4 py-2 bg-light">
+              <p class="h5 mb-0 py-1">Recent</p>
+            </div>
 
-    <section id="team">
-        <div class="container">
+            <div class="messages-box">
+              <div class="list-group rounded-0">
+                <a class="list-group-item list-group-item-action active text-white rounded-0">
+                  <div class="media">
+                    <img src="assets/team.png" alt="user" width="50" class="rounded-circle">
+                    <div class="media-body ml-4">
+                      <div class="d-flex align-items-center justify-content-between mb-1">
+                        <h6 class="mb-0">Erik</h6>
+                        <small class="small font-weight-bold">23 Dec</small>
+                      </div>
+                      <p class="font-italic mb-0 text-small">Alright i'll let the project leader know about that</p>
+                    </div>
+                  </div>
+                </a>
 
-            <div class="h1">Team List</div>
-            <input type="text" class="navbar-right" id="searchTable"
-                placeholder="Search for teams..">
-            <table id="teamlist" class="table">
-                <thead class="thead-light">
-                    <tr>
-                        <th>Avatar</th>
-                        <th>Team Name</th>
-                        <th>Reputation</th>
-                        <th>Description</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-            <div class="navbar-right result-count"></div>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+                  <div class="media">
+                    <img src="assets/team.png" alt="user" width="50" class="rounded-circle">
+                    <div class="media-body ml-4">
+                      <div class="d-flex align-items-center justify-content-between mb-1">
+                        <h6 class="mb-0">Brandon</h6>
+                        <small class="small font-weight-bold">17 Dec</small>
+                      </div>
+                      <p class="font-italic text-muted mb-0 text-small">It seems there's a new job offer coming for us tomorrow</p>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+                  <div class="media">
+                    <img src="assets/team.png" alt="user" width="50" class="rounded-circle">
+                    <div class="media-body ml-4">
+                      <div class="d-flex align-items-center justify-content-between mb-1">
+                        <h6 class="mb-0">Diana</h6>
+                        <small class="small font-weight-bold">5 Dec</small>
+                      </div>
+                      <p class="font-italic text-muted mb-0 text-small">I wonder if that's what youre up to nowadays</p>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <!--/#team-->
+
+        <div class="col-7 px-0">
+          <div class="px-4 py-5 chat-box bg-white">
+            <!-- Sender Message-->
+            <div class="media w-50 mb-3">
+              <img src="assets/team.png" alt="user" width="50" class="rounded-circle">
+              <div class="media-body ml-3">
+                <div class="bg-light rounded py-2 px-3 mb-2">
+                  <p class="text-small mb-0 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ultrices justo.</p>
+                </div>
+                <p class="small text-muted">12:00 PM | 23 Dec</p>
+              </div>
+            </div>
+
+            <!-- Reciever Message-->
+            <div class="media w-50 ml-auto mb-3">
+              <div class="media-body">
+                <div class="bg-primary rounded py-2 px-3 mb-2">
+                  <p class="text-small mb-0 text-white">Nullam quis augue purus. Suspendisse potenti. Aliquam ac fermentum enim.</p>
+                </div>
+                <p class="small text-muted">12:00 PM | 23 Dec</p>
+              </div>
+            </div>
+
+            <!-- Sender Message-->
+            <div class="media w-50 mb-3">
+              <img src="assets/team.png" alt="user" width="50" class="rounded-circle">
+              <div class="media-body ml-3">
+                <div class="bg-light rounded py-2 px-3 mb-2">
+                  <p class="text-small mb-0 text-muted">Sed in sodales ligula. Maecenas vel ligula maximus, vestibulum orci quis, consectetur augue.</p>
+                </div>
+                <p class="small text-muted">12:00 PM | 23 Dec</p>
+              </div>
+            </div>
+
+            <!-- Reciever Message-->
+            <div class="media w-50 ml-auto mb-3">
+              <div class="media-body">
+                <div class="bg-primary rounded py-2 px-3 mb-2">
+                  <p class="text-small mb-0 text-white">Praesent egestas, felis sed consequat dictum, nisl lacus varius dolor, ornare gravida dui risus sit amet ipsum.</p>
+                </div>
+                <p class="small text-muted">12:00 PM | 23 Dec</p>
+              </div>
+            </div>
+
+            <!-- Sender Message-->
+            <div class="media w-50 mb-3">
+              <img src="assets/team.png" alt="user" width="50" class="rounded-circle">
+              <div class="media-body ml-3">
+                <div class="bg-light rounded py-2 px-3 mb-2">
+                  <p class="text-small mb-0 text-muted">Nam vitae nisi at enim semper laoreet id vitae magna.</p>
+                </div>
+                <p class="small text-muted">12:00 PM | 23 Dec</p>
+              </div>
+            </div>
+
+            <!-- Reciever Message-->
+            <div class="media w-50 ml-auto mb-3">
+              <div class="media-body">
+                <div class="bg-primary rounded py-2 px-3 mb-2">
+                  <p class="text-small mb-0 text-white">Fusce aliquet sodales massa sit amet dignissim.</p>
+                </div>
+                <p class="small text-muted">12:00 PM | 23 Dec</p>
+              </div>
+            </div>
+
+          </div>
+
+          <form action="#" class="bg-light">
+            <div class="input-group">
+              <input type="text" placeholder="Type a message" aria-describedby="button-addon2" class="form-control rounded-0 border-0 py-4 bg-light">
+              <div class="input-group-append">
+                <button id="button-addon2" type="submit" class="btn btn-link"> <i class="fa fa-paper-plane"></i></button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
 
     <footer id="footer">
         <div class="container">
@@ -123,12 +223,11 @@
     </footer>
 
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.v5.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
-    <script type="text/javascript" src="js/teamutil.js"></script>
 </body>
 
 </html>
