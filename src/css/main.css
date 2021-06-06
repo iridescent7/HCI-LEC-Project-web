@@ -2700,6 +2700,7 @@ span.stButton_gradient,
 
 .text-area-control {
   border: 1px solid #eaeaea;
+  padding: 10px;
   font-weight: 300;
   outline: none;
   -webkit-box-shadow: none;
@@ -2707,7 +2708,7 @@ span.stButton_gradient,
   height: 150px;
   width : 100%; 
   box-sizing: border-box;
-  resize : none;
+  resize : vertical;
 }
 
 
