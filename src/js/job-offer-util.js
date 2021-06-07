@@ -62,8 +62,8 @@ $(document).ready(function () {
         
         entry = `
         <tr>
-            <td>` + jobGen() + `</td>
-            <td class="teamName">` + nameGen() + `</td>
+            <td class="jobPos">` + jobGen() + `</td>
+            <td>` + nameGen() + `</td>
             <td>` + repGen() + `</td>
             <td>` + sentenceGen() + `</td>
             <td><Button class="btn btn-common">Apply</Button></td>
@@ -80,7 +80,7 @@ $("#searchTable").keyup(function() {
     curr = 0;
     $("table").find("tr").each(function(index) {
         if (!index) return;
-        var name = $(this).find("td.teamName").text().toLowerCase();
+        var name = $(this).find("td.jobPos").text().toLowerCase();
         var cond = name.indexOf(value) !== -1
         $(this).toggle(cond);
         if(cond) curr++;
